@@ -1,6 +1,6 @@
 {
   "name": "stimulus-numeric-controls",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds the increment and decrepment functionality to a numeric input using stimulus js",
   "main": "index.js",
   "scripts": {
