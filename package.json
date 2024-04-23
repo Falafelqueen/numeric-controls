@@ -1,0 +1,24 @@
+{
+  "name": "stimulus-numeric-controls",
+  "version": "1.0.1",
+  "description": "Adds the increment and decrepment functionality to a numeric input using stimulus js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falafelqueen/numeric-controls.git"
+  },
+  "keywords": [
+    "stimulus",
+    "numeric-input",
+    "controls"
+  ],
+  "author": "Falafelqueen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Falafelqueen/numeric-controls/issues"
+  },
+  "homepage": "https://github.com/Falafelqueen/numeric-controls#readme"
+}
