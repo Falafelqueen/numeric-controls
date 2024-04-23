@@ -18,6 +18,29 @@ add `data-action="click->numeric-controls#decrement"` on the control that should
 - add _min_ attribute to the input to not be able to decrement beyond certain value (no min by default)
 - add _max_ attribute to not be able to incremenet beyond certain value
 
+### To remove the browser default add and decrease arrows
+**For chrome, Safari, Edge, Opera :**
+
+```
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+```
+
+**For firefox :**
+
+```
+input[type=number]{
+    -moz-appearance: textfield;
+}
+```
+
+Source: https://www.geeksforgeeks.org/how-to-disable-arrows-from-number-input/
+
+
 ### Example use
 
 #### Simple HTML
