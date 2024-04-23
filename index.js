@@ -9,7 +9,7 @@ export default class NumericControls extends Controller {
   }
 
   increment() {
-    const currentValue = parseInt(this.valueTarget.value);
+    const currentValue = parseInt(this.valueTarget.value) || 0; // if no value given start from 0
     const step = parseInt(this.valueTarget.step) || 1; // Default to 1 if step isn't defined
     const max = parseInt(this.valueTarget.max) || Infinity; // Handle case where max isn't defined
     console.log(parseInt(this.valueTarget.min));
@@ -19,7 +19,7 @@ export default class NumericControls extends Controller {
   }
 
   decrement() {
-    const currentValue = parseInt(this.valueTarget.value);
+    const currentValue = parseInt(this.valueTarget.value) || 0; // if no value given start from 0
     const step = parseInt(this.valueTarget.step) || 1; // Default to 1 if step isn't defined
     const min = parseInt(this.valueTarget.min);
     const safeMin = Number.isNaN(min) ? -Infinity : min;
