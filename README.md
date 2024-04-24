@@ -2,6 +2,9 @@
 
 Simple functionality to increase and decrease numeric value with custom controls
 
+Install with
+`yarn add stimulus-numeric-controls`
+
 ## How to use
 
 add `data-controler="numeric-controls"` on an element that is encompasing both, your numeric input field and the controls
