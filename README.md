@@ -5,6 +5,13 @@ Simple functionality to increase and decrease numeric value with custom controls
 Install with
 `yarn add stimulus-numeric-controls`
 
+Add this to your javascript/controllers/index.js
+
+```
+import NumericControls from "stimulus-numeric-controls";
+application.register("numeric-controls", NumericControls);
+```
+
 ## How to use
 
 add `data-controler="numeric-controls"` on an element that is encompasing both, your numeric input field and the controls
